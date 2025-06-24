@@ -83,7 +83,7 @@ function App() {
                 id="transcript"
                 value={transcript}
                 onChange={(e) => setTranscript(e.target.value)}
-                placeholder="I keep checking Slack even when I'm exhausted. I know I need rest, but I'm scared I'll miss something important."
+                placeholder=""
                 rows={4}
                 disabled={loading}
               />
